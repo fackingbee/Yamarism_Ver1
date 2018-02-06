@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2138436637, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: VideoReferenceItem
+  m_EditorClassIdentifier: 
+  _applicables: []
+  _source: {fileID: 11400000, guid: d5289a80e0712194e858eb81d76abac7, type: 2}
+  _selectors:
+  - _foldout: 1
+    _key:
+      _foldout: 0
+      _reference: {fileID: 0}
+      dataSource: 0
+      _data: UID
+      valiableType: 0
+    _value:
+      _foldout: 0
+      _reference: {fileID: 0}
+      dataSource: 1
+      _data: UID
+      valiableType: 1
+  - _foldout: 1
+    _key:
+      _foldout: 0
+      _reference: {fileID: 0}
+      dataSource: 0
+      _data: ID
+      valiableType: 0
+    _value:
+      _foldout: 0
+      _reference: {fileID: 0}
+      dataSource: 1
+      _data: MID
+      valiableType: 1
+  - _foldout: 1
+    _key:
+      _foldout: 0
+      _reference: {fileID: 0}
+      dataSource: 0
+      _data: ID
+      valiableType: 0
+    _value:
+      _foldout: 0
+      _reference: {fileID: 0}
+      dataSource: 1
+      _data: ID
+      valiableType: 1

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 310816584, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: CharacterValidatorLimitation
+  m_EditorClassIdentifier: 
+  _applicables:
+  - _foldout: 1
+    valiableType: 1
+    _modifier: {fileID: 11400000, guid: 556fe4e53143f534d8c350ee88ab41c1, type: 2}
+    _condition:
+      _foldout: 0
+      key: 
+      queryType: 0
+      inverse: 0
+      dataType: 0
+      dataSource: 0
+      IsLocalized: 0
+      IsIgnoreOnZero: 1
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0
+      valueString: 
+      valueNumeric: 0
+      valueBoolean: 0
+      _reference: {fileID: 0}
+      referenceKey: 
+  _source: {fileID: 11400000, guid: d818f51c034467441850bbdd762aa83c, type: 2}
+  inverse: 0
+  _limit:
+    _foldout: 0
+    _reference: {fileID: 0}
+    dataSource: 1
+    _data: 100
+    valiableType: 0
+  _onError: {fileID: 11400000, guid: 0b25075921c920f42a0a9b44d0daa325, type: 2}

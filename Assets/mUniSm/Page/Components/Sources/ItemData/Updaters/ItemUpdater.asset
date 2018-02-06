@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1877242979, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: ItemUpdater
+  m_EditorClassIdentifier: 
+  _applicables:
+  - _foldout: 1
+    valiableType: 1
+    _modifier: {fileID: 11400000, guid: c8dd2a03aeafce44cad933120ffceae8, type: 2}
+    _condition:
+      _foldout: 0
+      key: 
+      queryType: 0
+      inverse: 0
+      dataType: 0
+      dataSource: 0
+      IsLocalized: 0
+      IsIgnoreOnZero: 1
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0
+      valueString: 
+      valueNumeric: 0
+      valueBoolean: 0
+      _reference: {fileID: 0}
+      referenceKey: 
+  _onError: {fileID: 11400000, guid: f13253367c26ff34e837ee8bbcffbfc7, type: 2}
+  _source: {fileID: 11400000, guid: 0d39c068b05bb214fbe5c15292284c41, type: 2}
+  _reference: {fileID: 0}
+  _limit: 0
+  updatedTimeKey: Time
+  valiableType: 1
+  key: ID
+  _updates:
+    _foldout: 0
+    _list:
+    - _foldout: 1
+      _reference: {fileID: 0}
+      referenceKey: ID
+      targetKey: ID
+      dataSource: 1
+      randomSelect: 0
+      jsonOutput: 0
+      overwrite: 1
+      length: 0
+      randomLow: 0
+      randomHigh: 0
+      randomList: []
+      dataType: 0
+      jsonStructure:
+        _item: []
+      actionType: 0
+      limitLow: 0
+      limitHigh: 0
+      IsLocalized: 0
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0
+    - _foldout: 1
+      _reference: {fileID: 0}
+      referenceKey: Name
+      targetKey: Name
+      dataSource: 1
+      randomSelect: 0
+      jsonOutput: 0
+      overwrite: 1
+      length: 0
+      randomLow: 0
+      randomHigh: 0
+      randomList: []
+      dataType: 0
+      jsonStructure:
+        _item: []
+      actionType: 0
+      limitLow: 0
+      limitHigh: 0
+      IsLocalized: 1
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0
+    - _foldout: 1
+      _reference: {fileID: 11400000, guid: 90f6f1ba740828b47a72c83acbf14968, type: 2}
+      referenceKey: Time
+      targetKey: Time
+      dataSource: 2
+      randomSelect: 0
+      jsonOutput: 0
+      overwrite: 1
+      length: 0
+      randomLow: 0
+      randomHigh: 0
+      randomList: []
+      dataType: 3
+      jsonStructure:
+        _item: []
+      actionType: 0
+      limitLow: 0
+      limitHigh: 0
+      IsLocalized: 0
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0
+    - _foldout: 1
+      _reference: {fileID: 11400000, guid: 90f6f1ba740828b47a72c83acbf14968, type: 2}
+      referenceKey: Count
+      targetKey: Count
+      dataSource: 1
+      randomSelect: 0
+      jsonOutput: 0
+      overwrite: 1
+      length: 0
+      randomLow: 0
+      randomHigh: 0
+      randomList: []
+      dataType: 1
+      jsonStructure:
+        _item: []
+      actionType: 1
+      limitLow: 0
+      limitHigh: 999
+      IsLocalized: 0
+      defaultValueString: 
+      defaultValueNumeric: 1
+      defaultValueBoolean: 0
+    - _foldout: 1
+      _reference: {fileID: 11400000, guid: 90f6f1ba740828b47a72c83acbf14968, type: 2}
+      referenceKey: Type
+      targetKey: Type
+      dataSource: 1
+      randomSelect: 0
+      jsonOutput: 0
+      overwrite: 1
+      length: 0
+      randomLow: 0
+      randomHigh: 0
+      randomList: []
+      dataType: 1
+      jsonStructure:
+        _item: []
+      actionType: 0
+      limitLow: 0
+      limitHigh: 0
+      IsLocalized: 0
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0
+    - _foldout: 1
+      _reference: {fileID: 11400000, guid: 90f6f1ba740828b47a72c83acbf14968, type: 2}
+      referenceKey: Action
+      targetKey: Action
+      dataSource: 1
+      randomSelect: 0
+      jsonOutput: 0
+      overwrite: 1
+      length: 0
+      randomLow: 0
+      randomHigh: 0
+      randomList: []
+      dataType: 0
+      jsonStructure:
+        _item: []
+      actionType: 0
+      limitLow: 0
+      limitHigh: 0
+      IsLocalized: 0
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0
+    - _foldout: 1
+      _reference: {fileID: 11400000, guid: 90f6f1ba740828b47a72c83acbf14968, type: 2}
+      referenceKey: Rank
+      targetKey: Rank
+      dataSource: 1
+      randomSelect: 0
+      jsonOutput: 0
+      overwrite: 1
+      length: 0
+      randomLow: 0
+      randomHigh: 0
+      randomList: []
+      dataType: 1
+      jsonStructure:
+        _item: []
+      actionType: 0
+      limitLow: 0
+      limitHigh: 0
+      IsLocalized: 0
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0

@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{513DE59C-D776-7A5B-6919-42C2834130CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR;ENABLE_MONO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\ImageEffects\AntialiasingEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\BloomEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\CreaseShadingEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\Common\PGEditorUtils.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\PoolManager\PreRuntimePoolItemInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\PoolManager\SpawnPoolInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\AreaTargetTrackerInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\CollisionTargetTrackerInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\CompoundTargetTrackerInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\EventFireControllerInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\EventTriggerInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\Modifiers\AngleLimitModifierInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\Modifiers\FireDistanceModifierInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\Modifiers\IgnoreModifierInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\Modifiers\IgnoreTagModifierInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\Modifiers\LineOfSightModifierInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\Modifiers\WaitForAlignmentModifierInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\TargetableInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\TriggerEventProMessengerInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\Utilities\EventInfoListStandaloneInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\Utilities\SetConstraintTargetInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\TriggerEventPro\Utilities\SpawnOnFireInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\BillboardConstraintInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\ConstraintBaseInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\ConstraintFrameworkBaseInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\LookAtBaseClassInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\LookAtConstraintInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\SmoothLookAtConstraintInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\SmoothTransformConstraintInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\TransformConstraintInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\TurntableConstraintInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\WorldTo2DCameraConstraintInspector.cs" />
+     <Compile Include="Assets\Editor\SimpleTextureModifier\Scripts\Editor\EditorScriptableSingleton.cs" />
+     <Compile Include="Assets\Editor\SimpleTextureModifier\Scripts\Editor\SimpleTextureModifierSettings.cs" />
+     <Compile Include="Assets\Editor\SimpleTextureModifier\Scripts\Editor\TextureModifier.cs" />
+     <Compile Include="Assets\Editor\SimpleTextureModifier\Scripts\Editor\TextureModifierSetting.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
+     <Compile Include="Assets\MagicArsenal\KunaiEditor\Editor\KunaiEditor.cs" />
+     <Compile Include="Assets\TypefaceAnimator\Editor\TypefaceAnimatorEditor.cs" />
+     <Compile Include="Assets\TypefaceAnimator\Editor\TypefaceTools.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Editor\UIWidgetInspector.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Editor\ISObject Editor\ISObjectBottomStatusBar.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Editor\ISObject Editor\ISObjectCategoryDetails.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Editor\ISObject Editor\ISObjectCategoryListView.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Editor\ISObject Editor\ISObjectEditor.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Editor\ISObject Editor\ISObjectTopTabBar.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Editor\ISQuality Editor\ISQualityDatabaseEditor.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Editor\ISQuality Editor\ListView.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Editor\Test\ISObjectDatabaseMethods.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Editor\Test\ISObjectDatabaseType.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Editor\NestedAnimationCreator.cs" />
+     <Compile Include="Assets\Yama_Transition\EasyMaskingTransition\Scripts\Editor\EMTransitionEditor.cs" />
+     <Compile Include="Assets\Yama_Transition\EasyMaskingTransition\Scripts\Editor\TexturesPostprocessor.cs" />
+     <Compile Include="Assets\Yama_Transition\KetosGames\SceneTransition\Scripts\Editor\SceneLoaderEditor.cs" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\mUniSm\UI\Shaders\mUniSm - Sprite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Yama_AssetSample\ButterflyParticles\ButterflyParticles - Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Yama_etc\Yama_StartAction\Materals\CRTShader.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+     <None Include="Assets\Yama_AssetSample\ResourceGlobes\RB_GlobeCutoutShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\MagicArsenal\MagicArsenal - ReadMe.txt" />
+     <None Include="Assets\Plugins\Android\res\values-id\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ko\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Plugins\Android\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fr\strings.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\mUniSm\Core\Fonts\en\LICENSE_OFL.txt" />
+     <None Include="Assets\mUniSm\Core\Fonts\zh-CN\LICENSE_OFL.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+     <None Include="Assets\mUniSm\UI\Shaders\mUniSm - UI Text.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\TypefaceAnimator\Demo\Fonts\BitmapFont.xml" />
+     <None Include="Assets\mUniSm\Core\Fonts\icon\License.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Editor\SimpleTextureModifier\Shader\Premultiplied.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\Editor\SimpleTextureModifier\Shader\WithMask.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Yama_Transition\EasyMaskingTransition\Shaders\EMT-UI-AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\ja\LICENSE_OFL.txt" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\mUniSm\Core\Unity.IO.Compression\LICENSE.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\zh-TW\LICENSE_OFL.txt" />
+     <None Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\itemList2.txt" />
+     <None Include="Assets\Yama_AssetSample\ResourceGlobes\RB_GlobeSpriteCutoutShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ar\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es\strings.xml" />
+     <None Include="Assets\mUniSm\UI\Shaders\mUniSm - UI Default.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Plugins\PathologicalGames\readme.txt" />
+     <None Include="Assets\Yama_GUISystems\Yamato GUI\Yamato 2.0\Sliced v2\Secondary Action Bars\choose.txt" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\ar\LICENSE_OFL.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ru\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\ko\LICENSE_OFL.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ja\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Unitycoding\UI Widgets\Changelog.txt" />
+     <None Include="Assets\Plugins\Android\res\values\kii-push-config.xml" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\th\LICENSE_OFL.txt" />
+     <None Include="Assets\Editor\SimpleTextureModifier\Shader\WithMaskPremultiplied.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Plugins\Android\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\MagicArsenal\KunaiEditor\Editor\Readme.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\kii_server_side_auth_dialog.xml" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Plugins\Android\res\values-zh\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\codeandweb.com\Readme.txt" />
+     <None Include="Assets\Yama_AssetSample\ResourceGlobes\RB_GlobeShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonOrg">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Kii/Libs/JsonOrg.dll</HintPath>
+ </Reference>
+ <Reference Include="KiiCloudStorageSDK">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Kii/Libs/KiiCloudStorageSDK.dll</HintPath>
+ </Reference>
+ <Reference Include="KiiCloudUnitySDK">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Kii/Libs/KiiCloudUnitySDK.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Ads">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Ads/mUniSm.Ads.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Asset">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Asset/mUniSm.Asset.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Core">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Core/mUniSm.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Core.Editor">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Core/Editor/mUniSm.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.IO.Compression">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Core/Unity.IO.Compression/Unity.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Database">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Database/mUniSm.Database.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Page">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Page/mUniSm.Page.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Page.Editor">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Page/Editor/mUniSm.Page.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Purchasing">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Purchasing/mUniSm.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Scenario">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Scenario/mUniSm.Scenario.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Scenario.Editor">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Scenario/Editor/mUniSm.Scenario.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Tween">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Tween/mUniSm.Tween.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.UI">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/UI/mUniSm.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.UI.Editor">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/UI/Editor/mUniSm.UI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Yama_Home/Plugins/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Users/yamamotoshouzou/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/yamamotoshouzou/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/Users/yamamotoshouzou/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/yamamotoshouzou/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>/Users/yamamotoshouzou/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AD713886-4223-8C2B-F7E2-19669FF290BA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{F756E42C-DFC4-B20D-8F4B-FBEDA79085BE}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.csproj">
+      <Project>{B6E930FF-2D4E-5C06-1845-00A720C45E6A}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

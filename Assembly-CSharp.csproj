@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F756E42C-DFC4-B20D-8F4B-FBEDA79085BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR;ENABLE_MONO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Book-Page Curl\scripts\AutoFlip.cs" />
+     <Compile Include="Assets\Book-Page Curl\scripts\Book.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTButton.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTToggle.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_InspectorHelp.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Kii\Scripts\KiiPushPlugin.cs" />
+     <Compile Include="Assets\Kii\Scripts\KiiSocialNetworkConnector.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\ButtonScript.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\DragMouseOrbit.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\FireProjectile.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\loopScript.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\Projectile.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\ProjectileScript.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\MagicArsenal\KunaiEditor\KunaiRotation.cs" />
+     <Compile Include="Assets\MagicArsenal\Scripts\lightScript.cs" />
+     <Compile Include="Assets\MagicArsenal\Scripts\lightScriptLong.cs" />
+     <Compile Include="Assets\mUniSm\Ads\Scripts\AdsAdmobAdapter.cs" />
+     <Compile Include="Assets\mUniSm\Ads\Scripts\AdsUnityAdapter.cs" />
+     <Compile Include="Assets\mUniSm\Ads\Templates\CustomAdsProcess.cs" />
+     <Compile Include="Assets\mUniSm\Asset\Scripts\AssetIOSAdapter.cs" />
+     <Compile Include="Assets\mUniSm\Database\Scripts\DatabaseFirebaseAdapter.cs" />
+     <Compile Include="Assets\mUniSm\Page\Scripts\mUniSmPageInitializer.cs" />
+     <Compile Include="Assets\mUniSm\Purchasing\Scripts\PurchaseUnityAdapter.cs" />
+     <Compile Include="Assets\mUniSm\Purchasing\Scripts\PurchaseUnityBehaviour.cs" />
+     <Compile Include="Assets\PoolManagerExampleFiles\Scripts\CreationExample.cs" />
+     <Compile Include="Assets\PoolManagerExampleFiles\Scripts\DeleteAndCreateInSameFrame.cs" />
+     <Compile Include="Assets\PoolManagerExampleFiles\Scripts\InstanceHandlerDelegateExample.cs" />
+     <Compile Include="Assets\PoolManagerExampleFiles\Scripts\OnCreatedDelegateExample.cs" />
+     <Compile Include="Assets\PoolManagerExampleFiles\Scripts\OnSpawnedExample.cs" />
+     <Compile Include="Assets\PoolManagerExampleFiles\Scripts\ParticleWaitTest.cs" />
+     <Compile Include="Assets\PoolManagerExampleFiles\Scripts\ReallySimpleAudioSpawner.cs" />
+     <Compile Include="Assets\PoolManagerExampleFiles\Scripts\ReallySimpleParticleSpawner.cs" />
+     <Compile Include="Assets\PoolManagerExampleFiles\Scripts\SimpleSpawner.cs" />
+     <Compile Include="Assets\TypefaceAnimator\Demo\Scripts\Demo1.cs" />
+     <Compile Include="Assets\TypefaceAnimator\Demo\Scripts\Demo2.cs" />
+     <Compile Include="Assets\TypefaceAnimator\Scripts\TypefaceAnimator.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Example\Scripts\MessageBoxExample.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Example\Scripts\MessageContainerExample.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\AddMessage.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\ClearContainer.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\Close.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\Focus.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\GetWidget.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\RemoveMessage.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\SetProgress.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\Show.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\ShowMessageBox.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\Toggle.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\Chat.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\DragPanel.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\IValidation.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\KeyTrigger.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\MessageBox.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\MessageContainer.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\MessageOptions.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\MessageSlot.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\Progressbar.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\RadialMenu.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\RadialMenuItem.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\RadialMenuTrigger.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\ResizePanel.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\Tooltip.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\TooltipTrigger.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\Tween\EasingEquations.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\Tween\FloatTween.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\Tween\ITweenValue.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\Tween\TweenRunner.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\Tween\Vector3Tween.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\UIContainer.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\UICursor.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\UISlot.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\UIUtility.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Runtime\UIWidget.cs" />
+     <Compile Include="Assets\Yama_AssetSample\ResourceGlobes\DemoScene\DemoScript.cs" />
+     <Compile Include="Assets\Yama_AssetSample\ResourceGlobes\RB_ProgressChange.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Databases\ISArmorDatabase.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Databases\ISObjectDatabase.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Databases\ISQualityDatabase.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Databases\ISWeaponDatabase.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Databases\ScriptableObjectDatabase.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\EquipmentSlot.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISArmor.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISDatabaseObject.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISDestructable.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISEquipable.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISEquipmentSlot.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISGameObject.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISObject.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISQuality.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISStackable.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\Interfaces\IISWeapon.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\ISEquipmentSlot.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\ISObjects\ISArmor.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\ISObjects\ISObject.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\ISObjects\ISWeapon.cs" />
+     <Compile Include="Assets\Yama_Database\Item System\Scripts\ISQuality.cs" />
+     <Compile Include="Assets\Yama_Database\Scenes\Scripts\IS_Demo1.cs" />
+     <Compile Include="Assets\Yama_Database\Scenes\Scripts\Weapon.cs" />
+     <Compile Include="Assets\Yama_etc\CharacterManager.cs" />
+     <Compile Include="Assets\Yama_etc\InstantiateCharacter.cs" />
+     <Compile Include="Assets\Yama_etc\Yama_StartAction\Scripts\CRT.cs" />
+     <Compile Include="Assets\Yama_etc\Yama_StartAction\Scripts\StaratActionEnemyInvoke.cs" />
+     <Compile Include="Assets\Yama_etc\Yama_StartAction\Scripts\StartActionDoorInvoke.cs" />
+     <Compile Include="Assets\Yama_etc\Yama_StartAction\Scripts\StartFadeInOff.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\BattleEndTransition.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\CutInFillAmount.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\CutInFillAmountEnemy.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\CutInFillAmountSettlement.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\EnemyPowerGageHandler.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\EnemyPowerProgress.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\LightMove.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\PlayerPowerGageHandler.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\PowerProgress.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\Retry.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleDesign\WinEffect.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleMusic\Music_01_Manager.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\AudioManager.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\AutoDestroy.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\AutoDestroy02.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\BoardMove.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\CharacterDamage.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\CharacterSet.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\EvaluationHandler.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\FlickAnimAutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\FlickAnimDirection.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\FrameManager.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\GageHandler.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\GameController.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\GameDate.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\JsonDataBattle.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\LongTapHandler.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\MiniJSON.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\MusicDate.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\ParticleSize.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\PointHandler.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\ResultManager.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\ScoreCreator.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\ScoreHandler.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\ScoreLongUpController.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\Shadow_AfterImage.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\Shadow2.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\SpriteShadow.cs" />
+     <Compile Include="Assets\Yama_Game\Scripts\BattleSystem\TimeManager.cs" />
+     <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\ListBox.cs" />
+     <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\MasterSkinManager.cs" />
+     <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\Slider360.cs" />
+     <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\Switch.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\AlertViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\DraggableAdvance.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\DropZone.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\HomeManager.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\iTweenUIExtensions.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\NavigationViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack00.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack01.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack02.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack03.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack04.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack05.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\PageControl.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\PagingScrollViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ShopConfirmationViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ShopDetailViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ShopItemTableViewCell.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ShopItemTableViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\SpriteSheetManager.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\TableViewCell.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\TableViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ViewController.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\Equipment.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\Interfaces\IActivate.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\Interfaces\IDeactivate.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\ItemData.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\ItemDatabase.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\PlayerInv.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\SetItemTableViewCell.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\SetItemTableViewController.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\Slot.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\TableViewCell_Horizontal.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\TableViewControllerHorizontal.cs" />
+     <Compile Include="Assets\Yama_Home\Scripts\Tooltip.cs" />
+     <Compile Include="Assets\Yama_PlayerTurn\Scripts\PlayerAttackCreate.cs" />
+     <Compile Include="Assets\Yama_PlayerTurn\Scripts\PlayerAttackMove.cs" />
+     <Compile Include="Assets\Yama_PlayerTurn\Scripts\RandomPathMove.cs" />
+     <Compile Include="Assets\Yama_Scenes\Scripts\MovieImage.cs" />
+     <Compile Include="Assets\Yama_Scenes\Scripts\OpeningToTopMenu.cs" />
+     <Compile Include="Assets\Yama_Scenes\Scripts\RogoToOpening.cs" />
+     <Compile Include="Assets\Yama_Scenes\Scripts\SceneHandler.cs" />
+     <Compile Include="Assets\Yama_Scenes\Scripts\StartToRogo.cs" />
+     <Compile Include="Assets\Yama_Scenes\Scripts\ToGame.cs" />
+     <Compile Include="Assets\Yama_Scripts\AllocMem.cs" />
+     <Compile Include="Assets\Yama_Scripts\Kii\Item_Shimo.cs" />
+     <Compile Include="Assets\Yama_Scripts\Kii\Kii_Shimo.cs" />
+     <Compile Include="Assets\Yama_Scripts\Kii\KiiManage.cs" />
+     <Compile Include="Assets\Yama_Scripts\Kii\mainMenuManage.cs" />
+     <Compile Include="Assets\Yama_Scripts\Kii\UImainMenu.cs" />
+     <Compile Include="Assets\Yama_Scripts\Kii\variableManage.cs" />
+     <Compile Include="Assets\Yama_Transition\EasyMaskingTransition\Scripts\EMTransition.cs" />
+     <Compile Include="Assets\Yama_Transition\EasyMaskingTransition\Scripts\TransitionDemo.cs" />
+     <Compile Include="Assets\Yama_Transition\KetosGames\SceneTransition\Scripts\GoScript.cs" />
+     <Compile Include="Assets\Yama_Transition\KetosGames\SceneTransition\Scripts\LoadingSpinner.cs" />
+     <Compile Include="Assets\Yama_Transition\KetosGames\SceneTransition\Scripts\LoadingText.cs" />
+     <Compile Include="Assets\Yama_Transition\KetosGames\SceneTransition\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\Yama_Transition\KetosGames\SceneTransition\Scripts\SettingsScript.cs" />
+     <Compile Include="Assets\yPrefsDelete.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\AutoEffectsDestroy.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\ComboHandler.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\ComboManager.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\DamageShake.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\Droppable.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\EnemyDamage.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\PathRotate.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\PlayerDamage.cs" />
+     <Compile Include="Assets\Z_TrashBox\Scripts\SetStartGage.cs" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\mUniSm\UI\Shaders\mUniSm - Sprite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Yama_AssetSample\ButterflyParticles\ButterflyParticles - Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Yama_etc\Yama_StartAction\Materals\CRTShader.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+     <None Include="Assets\Yama_AssetSample\ResourceGlobes\RB_GlobeCutoutShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\MagicArsenal\MagicArsenal - ReadMe.txt" />
+     <None Include="Assets\Plugins\Android\res\values-id\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ko\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Plugins\Android\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fr\strings.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\mUniSm\Core\Fonts\en\LICENSE_OFL.txt" />
+     <None Include="Assets\mUniSm\Core\Fonts\zh-CN\LICENSE_OFL.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+     <None Include="Assets\mUniSm\UI\Shaders\mUniSm - UI Text.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\TypefaceAnimator\Demo\Fonts\BitmapFont.xml" />
+     <None Include="Assets\mUniSm\Core\Fonts\icon\License.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Editor\SimpleTextureModifier\Shader\Premultiplied.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\Editor\SimpleTextureModifier\Shader\WithMask.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Yama_Transition\EasyMaskingTransition\Shaders\EMT-UI-AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\ja\LICENSE_OFL.txt" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\mUniSm\Core\Unity.IO.Compression\LICENSE.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\zh-TW\LICENSE_OFL.txt" />
+     <None Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\itemList2.txt" />
+     <None Include="Assets\Yama_AssetSample\ResourceGlobes\RB_GlobeSpriteCutoutShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ar\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es\strings.xml" />
+     <None Include="Assets\mUniSm\UI\Shaders\mUniSm - UI Default.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Plugins\PathologicalGames\readme.txt" />
+     <None Include="Assets\Yama_GUISystems\Yamato GUI\Yamato 2.0\Sliced v2\Secondary Action Bars\choose.txt" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\ar\LICENSE_OFL.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ru\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\ko\LICENSE_OFL.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ja\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Unitycoding\UI Widgets\Changelog.txt" />
+     <None Include="Assets\Plugins\Android\res\values\kii-push-config.xml" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\mUniSm\Core\Fonts\th\LICENSE_OFL.txt" />
+     <None Include="Assets\Editor\SimpleTextureModifier\Shader\WithMaskPremultiplied.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Plugins\Android\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\MagicArsenal\KunaiEditor\Editor\Readme.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\kii_server_side_auth_dialog.xml" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Plugins\Android\res\values-zh\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\codeandweb.com\Readme.txt" />
+     <None Include="Assets\Yama_AssetSample\ResourceGlobes\RB_GlobeShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonOrg">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Kii/Libs/JsonOrg.dll</HintPath>
+ </Reference>
+ <Reference Include="KiiCloudStorageSDK">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Kii/Libs/KiiCloudStorageSDK.dll</HintPath>
+ </Reference>
+ <Reference Include="KiiCloudUnitySDK">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Kii/Libs/KiiCloudUnitySDK.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Ads">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Ads/mUniSm.Ads.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Asset">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Asset/mUniSm.Asset.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Core">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Core/mUniSm.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.IO.Compression">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Core/Unity.IO.Compression/Unity.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Database">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Database/mUniSm.Database.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Page">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Page/mUniSm.Page.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Purchasing">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Purchasing/mUniSm.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Scenario">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Scenario/mUniSm.Scenario.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.Tween">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Tween/mUniSm.Tween.dll</HintPath>
+ </Reference>
+ <Reference Include="mUniSm.UI">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/UI/mUniSm.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Yama_Home/Plugins/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/yamamotoshouzou/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/yamamotoshouzou/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AD713886-4223-8C2B-F7E2-19669FF290BA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

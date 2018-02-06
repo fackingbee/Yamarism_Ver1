@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -371313152, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: DatabaseSourceUnit
+  m_EditorClassIdentifier: 
+  _sources:
+  - _foldout: 1
+    _source: {fileID: 11400000, guid: d818f51c034467441850bbdd762aa83c, type: 2}
+    IDKey: ID
+    name: CharacterData
+    allowDuplicate: 1
+    _appender:
+      _item: []
+  - _foldout: 1
+    _source: {fileID: 11400000, guid: 0d39c068b05bb214fbe5c15292284c41, type: 2}
+    IDKey: ID
+    name: ItemData
+    allowDuplicate: 0
+    _appender:
+      _item: []
+  - _foldout: 1
+    _source: {fileID: 11400000, guid: 55ea4533d6cc9d74a886e2412909754c, type: 2}
+    IDKey: ID
+    name: BookData
+    allowDuplicate: 0
+    _appender:
+      _item: []

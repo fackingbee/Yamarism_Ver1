@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6798ddbf2114c608c5dd5a3d41d57e, type: 3}
+  m_Name: YamaQualityDatabase
+  m_EditorClassIdentifier: 
+  item:
+  - _name: Green
+    _icon: {fileID: 21300000, guid: b1abd3274b115fa41ae4464ad2f345c9, type: 3}
+  - _name: Blue
+    _icon: {fileID: 21300000, guid: 86eb385f6207eaa429f7f7a83e00211e, type: 3}
+  - _name: Red
+    _icon: {fileID: 21300000, guid: 0f06016e2cf3f8c4d9cf70e8b7f7a248, type: 3}

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1428616177608266}
+  m_IsPrefabParent: 1
+--- !u!1 &1428616177608266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4199768295157064}
+  - component: {fileID: 114671633914061618}
+  m_Layer: 0
+  m_Name: GachaReleaseRestrictionUpdater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4199768295157064
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428616177608266}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114671633914061618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428616177608266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -609642040, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneData: {fileID: 0}
+  _timeOut: 5
+  actionOnDisable: 3
+  _onTimeout: {fileID: 11400000, guid: a7c5a7fb999c73d41888a606a7e8733d, type: 2}
+  _onError: {fileID: 11400000, guid: f13253367c26ff34e837ee8bbcffbfc7, type: 2}
+  _onSuccess: {fileID: 11400000, guid: daa31037e3a4aac4d89c35f79a3f4781, type: 2}
+  _reference: {fileID: 11400000, guid: 826632f62f1c0dc4b9a41a2d2fddf386, type: 2}
+  _preAppender: []
+  _validator:
+  - {fileID: 11400000, guid: 5c030fe89a6298644be202b382ce8c46, type: 2}
+  _updater:
+  - {fileID: 11400000, guid: f716c511c33bfee4080a6f0649bbeec1, type: 2}
+  - {fileID: 11400000, guid: cbb61d0bcb097af4e9160db20be58cbb, type: 2}
+  _conditionFilter: {fileID: 11400000, guid: dd8950bc0af7cca408309f451fcaa358, type: 2}
+  _eventFilter: {fileID: 11400000, guid: ae0106e802c32944586a1c11eddd337e, type: 2}
+  _restrictionFilter: {fileID: 11400000, guid: d8a28a178c8a37644800b9abdc487b36, type: 2}
+  inverseCondition: 0
+  inverseEvent: 0
+  inverseRestriction: 0
+  additionalConditions:
+    _foldout: 0
+    _list: []
+  movieBackgroundSkinPath: /Color/Background/Black
+  _onResult:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: mUniSm.Core.SceneEvent, mUniSm.Core, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=1decca7d3ea3a156

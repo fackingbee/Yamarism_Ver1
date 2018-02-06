@@ -1,0 +1,28 @@
+
+===========================================================================================
+
+mUniSm-Font-Icon uses an icon created at font-awesome.
+The contents of the font license can be confirmed from the following page.
+
+Font Awesome
+http://fontawesome.io/license/
+
+Applies to all desktop and webfont files in the following directory: font-awesome/fonts/.
+License: SIL OFL 1.1
+URL: http://scripts.sil.org/OFL
+
+===========================================================================================
+
+=========================================================================================
+
+mUniSm-Font-Icon uses an icon created at Game-icons.net and Game-icons-font created based on it.
+This icon is licensed for Attribution 3.0 Unported (CC BY 3.0).
+For details on icons and fonts, please see the following.
+
+Game-icons.net
+http://game-icons.net/
+
+Game-icons-font
+http://game-icons-font.net/
+
+=========================================================================================

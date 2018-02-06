@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1375507847, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: GachaAppendStaticData
+  m_EditorClassIdentifier: 
+  _applicables: []
+  valiableType: 0
+  _reference: {fileID: 0}
+  _data:
+    _item:
+    - Key: $Source
+      Value: GachaData
+    - Key: $Target
+      Value: GachaDetail
+  sourceKey: 
+  referenceKey: 
+  containsInValue: 0
+  applyCountTag: 0
+  countKey: Count
+  applyAllValues: 0
+  values: []

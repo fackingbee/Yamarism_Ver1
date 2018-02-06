@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fbfb61682b82f8843be0db2553b7c893
+timeCreated: 1497536957
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 64
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: mUniSm-Font-Icon
+  fontNames:
+  - mUniSm-Font-Icon
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

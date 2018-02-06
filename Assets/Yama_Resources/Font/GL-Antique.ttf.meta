@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c13d03f6b9411445a92fa78e63ec218d
+timeCreated: 1489807695
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GL-Antique
+  fontNames:
+  - GL-Antique
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

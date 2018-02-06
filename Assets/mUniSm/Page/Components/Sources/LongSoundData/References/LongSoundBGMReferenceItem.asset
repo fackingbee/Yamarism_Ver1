@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2138436637, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: LongSoundBGMReferenceItem
+  m_EditorClassIdentifier: 
+  _applicables: []
+  _source: {fileID: 11400000, guid: ad9f01434a07bc647b6eea6a27b6585f, type: 2}
+  _selectors:
+  - _foldout: 1
+    _key:
+      _foldout: 0
+      _reference: {fileID: 0}
+      dataSource: 0
+      _data: ID
+      valiableType: 0
+    _value:
+      _foldout: 0
+      _reference: {fileID: 11400000, guid: 9e83a04d723ddaf40a2b85567bcdb11c, type: 2}
+      dataSource: 0
+      _data: BGM
+      valiableType: 1

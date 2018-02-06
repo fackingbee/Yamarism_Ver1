@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1978545469, guid: d20299cf1f6437943a12bf178b1400c8, type: 3}
+  m_Name: Init
+  m_EditorClassIdentifier: 
+  PackageName: net.munism.visualnovel
+  Name: Visual Novel Creator
+  Version: 1.0.0
+  minSDKVersion: 1.0.0
+  targetSDKVersion: 1.0.10
+  Description: Tools for producing visual novels
+  Author: mathru
+  OfficialURL: http://munism.net
+  Email: support@munism.net
+  ModuleRootDirectoryName: VisualNovel
+  DirectGameMode: 0
+  TitleCoreScene: TitleCore
+  TitleLogoScene: TitleLogo
+  TitleAuthScene: TitleAuth
+  TitleMainScene: TitleMain
+  GameCoreScene: GameCore
+  PageCoreScene: PageCore
+  PageHomeScene: Book
+  BackgroundScene: Background
+  VideoScene: Video
+  AcquisitionScene: Acquisition
+  LoadScene: Load
+  SelectSceneFormat: '{0}Select'
+  ViewSceneFormat: '{0}View'
+  PurchasingScene: Purchasing
+  PurchaseModalScene: PurchaseModal
+  NetworkingScene: Networking
+  mUniSmPageCoreScene: mUniSmPageCore
+  mUniSmAppCoreScene: mUniSmCore
+  ScenarioCoreScene: ScenarioCore
+  BuildSettingSceneList:
+  - mUniSm/Core/Scenes/mUniSmCore
+  - mUniSm/Page/Scenes/mUniSmPageCore
+  - mUniSm/Game/VisualNovel/Scenes/PageCore
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Book/Book
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Misc/BookDetail
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Others/Others
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Shop/Shop
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Shop/ShopBook
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Shop/ShopBookDetail
+  - mUniSm/Page/Scenes/Acquisition
+  - mUniSm/Page/Scenes/Background
+  - mUniSm/Page/Scenes/Load
+  - mUniSm/Page/Scenes/Video
+  - mUniSm/Page/Scenes/Pages/Chara/Chara
+  - mUniSm/Page/Scenes/Pages/Chara/CharaList
+  - mUniSm/Page/Scenes/Pages/Gacha/Gacha
+  - mUniSm/Page/Scenes/Pages/Gacha/GachaDetail
+  - mUniSm/Page/Scenes/Pages/Gacha/GachaItemList
+  - mUniSm/Page/Scenes/Pages/Gacha/GachaResult
+  - mUniSm/Page/Scenes/Pages/Home/Home
+  - mUniSm/Page/Scenes/Pages/Item/Item
+  - mUniSm/Page/Scenes/Pages/Item/ItemBook
+  - mUniSm/Page/Scenes/Pages/Item/ItemList
+  - mUniSm/Page/Scenes/Pages/Misc/CharacterDetail
+  - mUniSm/Page/Scenes/Pages/Misc/ItemDetail
+  - mUniSm/Page/Scenes/Pages/Mixture/MixtureCategories
+  - mUniSm/Page/Scenes/Pages/Mixture/MixtureCharacter
+  - mUniSm/Page/Scenes/Pages/Mixture/MixtureDetail
+  - mUniSm/Page/Scenes/Pages/Mixture/MixturePod
+  - mUniSm/Page/Scenes/Pages/Mixture/MixtureUpdater
+  - mUniSm/Page/Scenes/Purchasing/PurchaseModal
+  - mUniSm/Page/Scenes/Purchasing/Purchasing
+  - mUniSm/Page/Scenes/Selects/CharacterSelect
+  - mUniSm/Page/Scenes/Title/TitleAuth
+  - mUniSm/Page/Scenes/Title/TitleCore
+  - mUniSm/Page/Scenes/Title/TitleLogo
+  - mUniSm/Page/Scenes/Title/TitleMain
+  - mUniSm/Page/Scenes/Views/BookView
+  - mUniSm/Page/Scenes/Views/CharacterView
+  - mUniSm/Page/Scenes/Views/ItemView
+  - mUniSm/Scenario/Scenes/ScenarioCore

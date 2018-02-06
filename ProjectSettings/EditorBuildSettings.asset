@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/mUniSm/Core/Scenes/mUniSmCore.unity
+    guid: 960f20b80644aaf4a9f4e703098803f7
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/mUniSmPageCore.unity
+    guid: 38a5fde576bb52948bccd60b8e870186
+  - enabled: 1
+    path: Assets/mUniSm/Game/VisualNovel/Scenes/PageCore.unity
+    guid: 86d98bed24c437a42b72483a351d33ce
+  - enabled: 1
+    path: Assets/mUniSm/Game/VisualNovel/Scenes/Pages/Book/Book.unity
+    guid: a7220158a743c1243a4e6c0e0c8c73a2
+  - enabled: 1
+    path: Assets/mUniSm/Game/VisualNovel/Scenes/Pages/Misc/BookDetail.unity
+    guid: 34bcb3e628db95f45850e2ce18240387
+  - enabled: 1
+    path: Assets/mUniSm/Game/VisualNovel/Scenes/Pages/Others/Others.unity
+    guid: 978a082916eef61499f75dc1b8a4617c
+  - enabled: 1
+    path: Assets/mUniSm/Game/VisualNovel/Scenes/Pages/Shop/Shop.unity
+    guid: 7444670a60ce3d048b60e1b70c480dbb
+  - enabled: 1
+    path: Assets/mUniSm/Game/VisualNovel/Scenes/Pages/Shop/ShopBook.unity
+    guid: 5119a5d0d8fab5647b8daa757c41ad74
+  - enabled: 1
+    path: Assets/mUniSm/Game/VisualNovel/Scenes/Pages/Shop/ShopBookDetail.unity
+    guid: c3f59e2947f05dd46bcf5bd19f7d4991
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Acquisition.unity
+    guid: eb222077b23dc614fad61b30f6cc5019
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Background.unity
+    guid: da24b6016a0f25b4c8248f255f563a87
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Load.unity
+    guid: 639ccea94d0f69542b5e124f9dbbe073
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Video.unity
+    guid: 70044195805e925408000561cf19bb1b
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Chara/Chara.unity
+    guid: 90660d7814fb50d41aa3e18deadea774
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Chara/CharaList.unity
+    guid: 334e26ccb77e44d458b7550d79c65a4e
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Gacha/Gacha.unity
+    guid: 2b3c48e7bea098a448e59c44d1ed2949
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Gacha/GachaDetail.unity
+    guid: 97f54e7d5d870264085904a0dc537c6b
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Gacha/GachaItemList.unity
+    guid: aefbe30e903d91b499c4c3c44812226a
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Gacha/GachaResult.unity
+    guid: cef0ab3a043704c408b7929b7bd50d54
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Home/Home.unity
+    guid: af126c1788b7656449f6941956e0952c
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Item/Item.unity
+    guid: 0810fac234d7fb946af7a76c5d221326
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Item/ItemBook.unity
+    guid: 8267fd338be48de4a8ec77245455cfe7
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Item/ItemList.unity
+    guid: e84aa864f36429440b67888809d1d065
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Misc/CharacterDetail.unity
+    guid: 3d60fff5553e6f74b87f01c3840e4da7
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Misc/ItemDetail.unity
+    guid: 03bcecc2f1eb4674e8669d6fcfe36180
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Mixture/MixtureCategories.unity
+    guid: 5ac5e139555cd154896eb3c10923ce84
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Mixture/MixtureCharacter.unity
+    guid: 721cc6f0029ec9045bd758625f6f5411
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Mixture/MixtureDetail.unity
+    guid: fc684cf94664bef49b1030e9583c47e6
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Mixture/MixturePod.unity
+    guid: 3b1bbb52186d15b41a41d1e6c2ad9a75
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Pages/Mixture/MixtureUpdater.unity
+    guid: cdc83131865ad4f4885b570c8f0fd1c4
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Purchasing/PurchaseModal.unity
+    guid: 86d57c012e99290479d774fe6c6b8cc2
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Purchasing/Purchasing.unity
+    guid: 313301e6a1d90434bafdc6e61d37eecf
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Selects/CharacterSelect.unity
+    guid: 3af7f77e8214a63479f347b4cdb44ae1
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Title/TitleAuth.unity
+    guid: ef67f37cb29c5f843aeb3d75de59e9a7
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Title/TitleCore.unity
+    guid: c7ce269f3c10f924cae81f9e9462e868
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Title/TitleLogo.unity
+    guid: ca199f2c2d49cb74c8b213e6942a961b
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Title/TitleMain.unity
+    guid: fe8e845395df7fe43b318146ee4e3304
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Views/BookView.unity
+    guid: 917876e56b9bb9d418f6ddf7a35d5c98
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Views/CharacterView.unity
+    guid: 00fc8fb6ca00a714abb00d20026fa562
+  - enabled: 1
+    path: Assets/mUniSm/Page/Scenes/Views/ItemView.unity
+    guid: a613b41e80172474e8a6d1628f6293a2
+  - enabled: 1
+    path: Assets/mUniSm/Scenario/Scenes/ScenarioCore.unity
+    guid: f1d17e6d87d9ee140a2a076385180284
+  - enabled: 1
+    path: Assets/Yama_Scenes/Scenes/shop_CharaSelect.unity
+    guid: e54a599ddbd6a44568828c62fa2d9287
+  - enabled: 1
+    path: Assets/Yama_Scenes/Scenes/shop_MusicSelect.unity
+    guid: d9fc056bb4c134dcabb099e7c1d87396
+  - enabled: 1
+    path: Assets/Yama_Scenes/Scenes/Battle.unity
+    guid: 2db004994c3a34271ae317ec2c8b661f

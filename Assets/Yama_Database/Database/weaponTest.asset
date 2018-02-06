@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a805a6295a348789ec6444851e2c38, type: 3}
+  m_Name: weaponTest
+  m_EditorClassIdentifier: 
+  item:
+  - _name: "\u6B66\u56681"
+    _icon: {fileID: 0}
+    _value: 5
+    _burden: 5
+    _quality:
+      _name: Blue
+      _icon: {fileID: 21300000, guid: 86eb385f6207eaa429f7f7a83e00211e, type: 3}
+    _minDamage: 5
+    _durability: 5
+    _maxDurabiliry: 5
+    _prefab: {fileID: 100030, guid: 2314ce3a3eecf4816bad3c9eca4de2e1, type: 2}
+    equipmentSlot: 0

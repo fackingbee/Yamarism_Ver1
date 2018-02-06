@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1344800653, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: ActionErrorOnPurchasingIsNotSupported
+  m_EditorClassIdentifier: 
+  _onAction:
+    _foldout: 0
+    _title:
+      _isLocalized: 1
+      _value: ERROR
+      _foldout: 0
+    _text:
+      _isLocalized: 1
+      _value: Purchasing system is not supported on this platform
+      _foldout: 1
+    _IsUseSubButton: 0
+    _mainButton:
+      _isLocalized: 1
+      _value: Back
+      _foldout: 1
+      _icon: fa-chevron-circle-left
+      _onAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 92802b4ce57369d4a966ea806ee09c17, type: 2}
+            m_MethodName: Return
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: mUniSm.Page.mTextAction+mTextActionEvent, mUniSm.Page, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=1decca7d3ea3a156
+    _subButton:
+      _isLocalized: 1
+      _value: 
+      _foldout: 0
+      _icon: 
+      _onAction:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: mUniSm.Page.mTextAction+mTextActionEvent, mUniSm.Page, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=1decca7d3ea3a156
+    _appender:
+      _item:
+      - Key: '%ModalSkin'
+        Value: /Color/Background/Warning
+    _runner: {fileID: 11400000, guid: 33e12c0cbb9dba843866dd1e5ddb3a4c, type: 2}

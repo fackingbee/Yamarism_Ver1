@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1803129739543122}
+  m_IsPrefabParent: 1
+--- !u!1 &1803129739543122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4107752540911592}
+  - component: {fileID: 114671814243125412}
+  m_Layer: 0
+  m_Name: BookSourceList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4107752540911592
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1803129739543122}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114671814243125412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1803129739543122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1911408365, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneData: {fileID: 0}
+  _actionOnDestroy: 1
+  _onAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 92802b4ce57369d4a966ea806ee09c17, type: 2}
+        m_MethodName: Load
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: mUniSm.Core.SceneEvent, mUniSm.Core, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=1decca7d3ea3a156
+  _onLongPressAction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: mUniSm.Core.SceneEvent, mUniSm.Core, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=1decca7d3ea3a156
+  _modifiers:
+  - {fileID: 11400000, guid: a84b062d5e2efd740afeeaf1b0483b96, type: 2}
+  - {fileID: 11400000, guid: 658d44887cdd21e4793e43ba74b9208a, type: 2}
+  - {fileID: 11400000, guid: dd8950bc0af7cca408309f451fcaa358, type: 2}
+  _group: 128124
+  _assetGroupReferenceMode: 1
+  _sources:
+  - {fileID: 11400000, guid: 55ea4533d6cc9d74a886e2412909754c, type: 2}
+  _appender:
+  - _foldout: 1
+    valiableType: 0
+    modifierType: 0
+    dataType: 0
+    serializedValueKey: $Data
+    prefix: $
+    _reference: {fileID: 0}
+    _sourceUnit: {fileID: 0}
+    _data:
+      _item:
+      - Key: $Icon
+        Value: fa-book
+    sourceKey: 
+    referenceKey: 
+    containsInValue: 0
+    applyCountTag: 0
+    countKey: 
+    applyAllValues: 0
+    values: []

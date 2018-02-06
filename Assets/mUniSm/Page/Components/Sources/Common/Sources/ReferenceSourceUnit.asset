@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -371313152, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: ReferenceSourceUnit
+  m_EditorClassIdentifier: 
+  _sources:
+  - _foldout: 1
+    _source: {fileID: 11400000, guid: 2b2627e7ae71d93409292e05a38a7402, type: 2}
+    IDKey: ID
+    name: CharacterData
+    allowDuplicate: 1
+    _appender:
+      _item:
+      - Key: $Icon
+        Value: fa-user
+  - _foldout: 1
+    _source: {fileID: 11400000, guid: 319e145bb3c2ef04d8ae22a61d2e384b, type: 2}
+    IDKey: ID
+    name: ItemData
+    allowDuplicate: 0
+    _appender:
+      _item:
+      - Key: $Icon
+        Value: gi-ace
+  - _foldout: 1
+    _source: {fileID: 11400000, guid: 8b8925ea8e396704fb539714be773e2a, type: 2}
+    IDKey: ID
+    name: BookData
+    allowDuplicate: 0
+    _appender:
+      _item:
+      - Key: $Icon
+        Value: fa-book

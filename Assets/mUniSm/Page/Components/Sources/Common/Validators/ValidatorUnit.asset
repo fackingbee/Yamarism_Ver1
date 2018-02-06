@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 318182501, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: ValidatorUnit
+  m_EditorClassIdentifier: 
+  _applicables: []
+  _validators:
+  - {fileID: 11400000, guid: 0b2c8411cedaea8458a4d09ca488a6e0, type: 2}
+  - {fileID: 11400000, guid: c31c2904eec6d6a47ad76dd4255f15e4, type: 2}
+  - {fileID: 11400000, guid: d783be000855fa440a52241da3726d03, type: 2}

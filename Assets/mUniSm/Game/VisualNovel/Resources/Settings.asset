@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 434346721, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  PackageName: net.munism.visualnovel
+  Name: Visual Novel Creator
+  Version: 1.0.0
+  Description: Tools for creating visual novels
+  Auther: mUniSm
+  OfficialURL: http://munism.net
+  DirectGameMode: 0
+  UseThisModule: 1
+  TitleCoreScene: TitleCore
+  GameCoreScene: GameCore
+  PageCoreScene: PageCore
+  PageHomeScene: Book
+  BackgroundScene: Background
+  LoadScene: Load
+  PurchasingScene: Purchasing
+  NetworkingScene: Networking
+  AdsScene: Ads
+  PageCoreSceneName: mUniSmPageCore
+  ScenarioCoreSceneName: ScenarioCore
+  BuildSettingSceneList:
+  - mUniSm/Core/Scenes/mUniSmCore
+  - mUniSm/Page/Scenes/mUniSmPageCore
+  - mUniSm/Page/Scenes/Background
+  - mUniSm/Page/Scenes/Title/TitleLogo
+  - mUniSm/Page/Scenes/Title/TitleCore
+  - mUniSm/Page/Scenes/Title/TitleAuth
+  - mUniSm/Page/Scenes/Title/TitleMain
+  - mUniSm/Scenario/Scenes/ScenarioCore
+  - mUniSm/Game/VisualNovel/Scenes/Load
+  - mUniSm/Game/VisualNovel/Scenes/PageCore
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Book/Book
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Shop/ShopBook
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Shop/ShopBookDetail
+  - mUniSm/Game/VisualNovel/Scenes/Pages/Shop/Shop

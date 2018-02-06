@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 299952081, guid: d20299cf1f6437943a12bf178b1400c8, type: 3}
+  m_Name: RankSkinPath
+  m_EditorClassIdentifier: 
+  _paths:
+  - /Color/Rank/None
+  - /Color/Rank/E
+  - /Color/Rank/D
+  - /Color/Rank/C
+  - /Color/Rank/B
+  - /Color/Rank/A
+  - /Color/Rank/S
+  - /Color/Rank/SS
+  - /Color/Rank/SSS

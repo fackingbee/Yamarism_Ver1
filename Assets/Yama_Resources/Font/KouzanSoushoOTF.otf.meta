@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f39447a7a34e244a3ba93e40e09f0a81
+timeCreated: 1490324027
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: KouzanBrushFontSousyoOTF
+  fontNames:
+  - KouzanBrushFontSousyoOTF
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

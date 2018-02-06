@@ -1,0 +1,32 @@
+[
+	{
+		"id": 0,
+		"itemName": "Tsutsumi",
+		"price": 10,
+		"stats": 
+		{
+			"power" : 10,
+			"speed" : 0,
+			"performance": 2
+		},
+		"description": "武力 +10, 速力 +0, 験力 +2",
+		"stackable": false,
+		"rarity": 2,
+		"slug": "tsutsumi"
+	},
+	{
+		"id": 1,
+		"itemName": "Biwa",
+		"price": 18,
+		"stats": 
+		{
+			"power"      : 0,
+			"speed"      : 8,
+			"performance": 10
+		},
+		"description": "武力 +0, 速力 +8, 験力 +10",
+		"stackable": true,
+		"rarity": 3,
+		"slug": "biwa"
+	}
+]

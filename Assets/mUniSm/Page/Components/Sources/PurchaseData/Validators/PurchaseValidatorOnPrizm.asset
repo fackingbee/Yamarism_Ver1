@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1423275481, guid: ad95049d43c0afa49a10df0a5eaa47d1, type: 3}
+  m_Name: PurchaseValidatorOnPrizm
+  m_EditorClassIdentifier: 
+  _applicables:
+  - _foldout: 1
+    valiableType: 1
+    _modifier: {fileID: 11400000, guid: 60df6fe685ef8224a85fd580bbd0d910, type: 2}
+    _condition:
+      _foldout: 0
+      key: 
+      queryType: 0
+      inverse: 0
+      dataType: 0
+      dataSource: 0
+      IsLocalized: 0
+      IsIgnoreOnZero: 0
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0
+      valueString: 
+      valueNumeric: 0
+      valueBoolean: 0
+      _reference: {fileID: 0}
+      referenceKey: 
+  _validates:
+  - _foldout: 1
+    dataSource: 0
+    _reference: {fileID: 0}
+    _condition:
+      _foldout: 1
+      key: Prizm
+      queryType: 3
+      inverse: 1
+      dataType: 0
+      dataSource: 1
+      IsLocalized: 0
+      IsIgnoreOnZero: 0
+      defaultValueString: 
+      defaultValueNumeric: 0
+      defaultValueBoolean: 0
+      valueString: Prizm
+      valueNumeric: 0
+      valueBoolean: 0
+      _reference: {fileID: 11400000, guid: cf4ecb0ff7fda664db0f25076dfbffee, type: 2}
+      referenceKey: Prizm
+  _onError: {fileID: 11400000, guid: 8bcfdb030f39ba74daa60c6bccb93fb3, type: 2}

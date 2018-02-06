@@ -1,0 +1,951 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1722672789, guid: d20299cf1f6437943a12bf178b1400c8, type: 3}
+  m_Name: Init
+  m_EditorClassIdentifier: 
+  _developMode: 0
+  _apiKey: NjNjYTllNGJkZDlkNDE1YWEyMjY5ZmRhMTgyODIxNmTOCL2aUYB1NKTOUy_mvsUwRVMCLtL17oyWYkkB9nsW3BO5toI2jfIujmXaHWtXJ53aN90mmyOLwH3DED3ZRVb_3ZhGWPUkG_0HzQPNK9R94w
+  _appCoreScenePath: Assets/mUniSm/Core/Scenes/mUniSmCore.unity
+  _localizedTitle:
+    _item:
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+    - Key: 1
+      Value: "\u0644\u0639\u0628\u0629 \u0627\u0644\u0625\u064A\u0642\u0627\u0639"
+    - Key: 6
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 10
+      Value: Rhythm game
+    - Key: 14
+      Value: jeu Rhythm
+    - Key: 15
+      Value: Rhythmus-Spiel
+    - Key: 20
+      Value: ritme permainan
+    - Key: 22
+      Value: "\u30EA\u30BA\u30E0\u30B2\u30FC\u30E0"
+    - Key: 23
+      Value: "\uB9AC\uB4EC \uAC8C\uC784"
+    - Key: 30
+      Value: "\u0438\u0433\u0440\u0430 \u0420\u0438\u0442\u043C"
+    - Key: 34
+      Value: El ritmo de juego
+    - Key: 36
+      Value: "\u0E40\u0E01\u0E21\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30"
+    - Key: 40
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 41
+      Value: "\u7BC0\u594F\u904A\u6232"
+    - Key: 1
+      Value: "\u0644\u0639\u0628\u0629 \u0627\u0644\u0625\u064A\u0642\u0627\u0639"
+    - Key: 6
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 10
+      Value: Rhythm game
+    - Key: 14
+      Value: jeu Rhythm
+    - Key: 15
+      Value: Rhythmus-Spiel
+    - Key: 20
+      Value: ritme permainan
+    - Key: 22
+      Value: "\u30EA\u30BA\u30E0\u30B2\u30FC\u30E0"
+    - Key: 23
+      Value: "\uB9AC\uB4EC \uAC8C\uC784"
+    - Key: 30
+      Value: "\u0438\u0433\u0440\u0430 \u0420\u0438\u0442\u043C"
+    - Key: 34
+      Value: El ritmo de juego
+    - Key: 36
+      Value: "\u0E40\u0E01\u0E21\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30"
+    - Key: 40
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 41
+      Value: "\u7BC0\u594F\u904A\u6232"
+    - Key: 1
+      Value: "\u0644\u0639\u0628\u0629 \u0627\u0644\u0625\u064A\u0642\u0627\u0639"
+    - Key: 6
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 10
+      Value: Rhythm game
+    - Key: 14
+      Value: jeu Rhythm
+    - Key: 15
+      Value: Rhythmus-Spiel
+    - Key: 20
+      Value: ritme permainan
+    - Key: 22
+      Value: "\u30EA\u30BA\u30E0\u30B2\u30FC\u30E0"
+    - Key: 23
+      Value: "\uB9AC\uB4EC \uAC8C\uC784"
+    - Key: 30
+      Value: "\u0438\u0433\u0440\u0430 \u0420\u0438\u0442\u043C"
+    - Key: 34
+      Value: El ritmo de juego
+    - Key: 36
+      Value: "\u0E40\u0E01\u0E21\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30"
+    - Key: 40
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 41
+      Value: "\u7BC0\u594F\u904A\u6232"
+    - Key: 1
+      Value: "\u0644\u0639\u0628\u0629 \u0627\u0644\u0625\u064A\u0642\u0627\u0639"
+    - Key: 6
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 10
+      Value: Rhythm game
+    - Key: 14
+      Value: jeu Rhythm
+    - Key: 15
+      Value: Rhythmus-Spiel
+    - Key: 20
+      Value: ritme permainan
+    - Key: 22
+      Value: "\u30EA\u30BA\u30E0\u30B2\u30FC\u30E0"
+    - Key: 23
+      Value: "\uB9AC\uB4EC \uAC8C\uC784"
+    - Key: 30
+      Value: "\u0438\u0433\u0440\u0430 \u0420\u0438\u0442\u043C"
+    - Key: 34
+      Value: El ritmo de juego
+    - Key: 36
+      Value: "\u0E40\u0E01\u0E21\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30"
+    - Key: 40
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 41
+      Value: "\u7BC0\u594F\u904A\u6232"
+    - Key: 1
+      Value: "\u0644\u0639\u0628\u0629 \u0627\u0644\u0625\u064A\u0642\u0627\u0639"
+    - Key: 6
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 10
+      Value: Rhythm game
+    - Key: 14
+      Value: jeu Rhythm
+    - Key: 15
+      Value: Rhythmus-Spiel
+    - Key: 20
+      Value: ritme permainan
+    - Key: 22
+      Value: "\u30EA\u30BA\u30E0\u30B2\u30FC\u30E0"
+    - Key: 23
+      Value: "\uB9AC\uB4EC \uAC8C\uC784"
+    - Key: 30
+      Value: "\u0438\u0433\u0440\u0430 \u0420\u0438\u0442\u043C"
+    - Key: 34
+      Value: El ritmo de juego
+    - Key: 36
+      Value: "\u0E40\u0E01\u0E21\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30"
+    - Key: 40
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 41
+      Value: "\u7BC0\u594F\u904A\u6232"
+    - Key: 1
+      Value: "\u0644\u0639\u0628\u0629 \u0627\u0644\u0625\u064A\u0642\u0627\u0639"
+    - Key: 6
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 10
+      Value: Rhythm game
+    - Key: 14
+      Value: jeu Rhythm
+    - Key: 15
+      Value: Rhythmus-Spiel
+    - Key: 20
+      Value: ritme permainan
+    - Key: 22
+      Value: "\u30EA\u30BA\u30E0\u30B2\u30FC\u30E0"
+    - Key: 23
+      Value: "\uB9AC\uB4EC \uAC8C\uC784"
+    - Key: 30
+      Value: "\u0438\u0433\u0440\u0430 \u0420\u0438\u0442\u043C"
+    - Key: 34
+      Value: El ritmo de juego
+    - Key: 36
+      Value: "\u0E40\u0E01\u0E21\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30"
+    - Key: 40
+      Value: "\u8282\u594F\u6E38\u620F"
+    - Key: 41
+      Value: "\u7BC0\u594F\u904A\u6232"
+    - Key: 1
+      Value: Yamarism03
+    - Key: 6
+      Value: Yamarism03
+    - Key: 10
+      Value: Yamarism 03
+    - Key: 14
+      Value: Yamarism03
+    - Key: 15
+      Value: Yamarism03
+    - Key: 20
+      Value: Yamarism03
+    - Key: 22
+      Value: Yamarism03
+    - Key: 23
+      Value: Yamarism03
+    - Key: 30
+      Value: Yamarism03
+    - Key: 34
+      Value: Yamarism03
+    - Key: 36
+      Value: Yamarism03
+    - Key: 40
+      Value: Yamarism03
+    - Key: 41
+      Value: Yamarism03
+  _module: {fileID: 11400000, guid: c52bb8cb538cce84db3d89408af7b2dd, type: 2}
+  _skin: {fileID: 0}
+  _editorID: ad01
+  _portraitCanvasSize: {x: 1080, y: 1920}
+  _landscapeCanvasSize: {x: 1920, y: 1080}
+  _maximumCanvasSize: {x: 1920, y: 1920}
+  _maximumMobileScreenSize: 1280
+  _targetFrameRate: 60
+  _retryIntervalTime: 3
+  _maxRetryCount: 10
+  _iconFont: {fileID: 12800000, guid: fbfb61682b82f8843be0db2553b7c893, type: 3}
+  _preLoadSkins:
+  - {fileID: 11400000, guid: f0b15323acb39274887668dca66b4e3c, type: 2}
+  - {fileID: 11400000, guid: 76399c83ce365bc4191532109b87ef8b, type: 2}
+  - {fileID: 11400000, guid: 6e3223b1fbef76d45a967f2e74a9d56c, type: 2}
+  - {fileID: 11400000, guid: 933488e316bca434fb7f2b593899bcde, type: 2}
+  - {fileID: 11400000, guid: 0dff0cc928895a542a5a8219c0d822cf, type: 2}
+  - {fileID: 11400000, guid: dcaaec401a97cdc488a0a211fde935d3, type: 2}
+  _forceNetworkShutdown: 0
+  _shortEffectDuration: 0.2
+  _mediumEffectDuration: 0.3
+  _longEffectDuration: 0.5
+  _allowableDecreaseFrameRate: 0.9

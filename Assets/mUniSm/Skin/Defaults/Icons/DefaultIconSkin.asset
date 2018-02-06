@@ -1,0 +1,948 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1053999977, guid: d20299cf1f6437943a12bf178b1400c8, type: 3}
+  m_Name: DefaultIconSkin
+  m_EditorClassIdentifier: 
+  PackageName: 
+  showingTitleText: 1
+  titleScreenTexture: {fileID: 0}
+  backgroundTexture: {fileID: 0}
+  author: mathru
+  url: http://mathru.net
+  email: mathru@teamegg.co.jp
+  _skinList:
+  - _foldout: 1
+    ID: Icons
+    _skins:
+    - _foldout: 0
+      _path: /Icon/Prizm
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-emerald
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Gold
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-metal-disc
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Back
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-caret-left
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Setting
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-sliders
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Stamina
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-glass-heart
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Loading
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-circle-o-notch
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Question
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-question
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Event
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-clock-o
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Restriction
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-check-circle
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Rare
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-stars-stack
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Shop
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-shop
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Gacha
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-perspective-dice-six-faces-random
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Item
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-ace
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Users
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-users
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Book
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-book
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/New
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-clock-o
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Warning
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-exclamation-triangle
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Check
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-check-circle
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/MixtureBase
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-round-star
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/MixtureMaterial
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-stars-stack
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 0
+      _path: /Icon/Pod
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: gi-chemical-tank
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []
+    - _foldout: 1
+      _path: /Icon/Music
+      _skins:
+      - _foldout: 0
+        skinType: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        gradientColor:
+          top: {r: 0, g: 0, b: 0, a: 0}
+          bottom: {r: 0, g: 0, b: 0, a: 0}
+          left: {r: 0, g: 0, b: 0, a: 0}
+          right: {r: 0, g: 0, b: 0, a: 0}
+          _offsetVertical: 0
+          _offsetHorizontal: 0
+        textGradientColor:
+          color01: {r: 1, g: 1, b: 1, a: 1}
+          color02: {r: 1, g: 1, b: 1, a: 1}
+          color03: {r: 1, g: 1, b: 1, a: 1}
+          color04: {r: 1, g: 1, b: 1, a: 1}
+          color05: {r: 1, g: 1, b: 1, a: 1}
+          color06: {r: 1, g: 1, b: 1, a: 1}
+        transitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        subTransitionColor:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        size: {x: 0, y: 0}
+        icon: fa-music
+        iconSize: 0
+        shape: {fileID: 0}
+        outline: {fileID: 0}
+        texture: {fileID: 0}
+        maskTexture: {fileID: 0}
+        _meshEffectSets: []

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 11d7ddd48749d4821ae1836e7c8050aa
+timeCreated: 1489807663
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GL-Tsukiji-5go
+  fontNames:
+  - GL-Tsukiji-5go
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

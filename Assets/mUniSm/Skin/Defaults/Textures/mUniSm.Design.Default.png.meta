@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: daf12dd8ad172e54ebfdae0558761a07
+timeCreated: 1509188224
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Back
+    21300002: Circle
+    21300004: CircleBorder
+    21300006: CirclePlane
+    21300008: Coin
+    21300010: Dragon
+    21300012: Gem
+    21300014: Heart
+    21300016: Loading
+    21300018: Plane
+    21300020: Square
+    21300022: SquareBorder
+    21300024: SquarePlane
+    21300026: PlaneBorder
+    21300028: Round.Border
+    21300030: Round
+    21300032: Special01.Border
+    21300034: Special01
+    21300036: Special02.Border
+    21300038: Special02
+    21300040: Default.Border
+    21300042: Default
+    21300044: Square.Border
+    21300046: Triangle.Border
+    21300048: Triangle
+    21300050: Special03.Border
+    21300052: Special03
+    21300054: RoundedSquare.Border
+    21300056: RoundedSquare
+    21300058: RoundedTriangle.Border
+    21300060: RoundedTriangle
+    21300062: Default.Plane.Border
+    21300064: Default.Plane
+    21300066: Default.Round.Border
+    21300068: Default.Round
+    21300070: Default.RoundedSquare.Border
+    21300072: Default.RoundedSquare
+    21300074: Default.RoundedTriangle.Border
+    21300076: Default.RoundedTriangle
+    21300078: Default.Square.Border
+    21300080: Default.Square
+    21300082: Default.Triangle.Border
+    21300084: Default.Triangle
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 2
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 0
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: 10
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 34
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 32
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 10
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: 28
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: 10
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Default.Plane.Border
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1546
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.Plane
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1042
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.Round.Border
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 538
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.Round
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.RoundedSquare.Border
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1546
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.RoundedSquare
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1546
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.RoundedTriangle.Border
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1546
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.RoundedTriangle
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1042
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.Square.Border
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 538
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.Square
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 34
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.Triangle.Border
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1042
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Default.Triangle
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1042
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
