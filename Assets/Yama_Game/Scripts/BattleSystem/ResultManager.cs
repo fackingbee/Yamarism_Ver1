@@ -23,10 +23,12 @@ public class ResultManager : MonoBehaviour {
 	public bool   isTotalPointCheck; 	// 総合アニメーション開始をUpdateで監視
 	public bool   isSettlementCheck;	// 勝敗カットインをUpdateで監視
 
-	public GameObject winObject;
+	public GameObject winObject;		// 勝利時のアイコン
+	public GameObject backButton;		// ゲーム終了時のバックボタン
 
 	void Awake () {
 		resultTime = 0f;
+		backButton.SetActive (false);
 	}
 
 	void Start () {
@@ -80,6 +82,7 @@ public class ResultManager : MonoBehaviour {
 		// 評価が終了したら、勝利 or 敗北シンボルを表示
 		if(!isSettlementCheck && battleRankFill.fillAmount == 1 && touchRankFill.fillAmount == 1 && totalRankFill.fillAmount == 1){
 			Invoke ("OnSettleAnim",0.5f);
+			Invoke ("OnSetBackButton",1.0f);
 			isSettlementCheck = true;
 		}
 
@@ -355,6 +358,11 @@ public class ResultManager : MonoBehaviour {
 			totalPointText.text = endPoint.ToString ("N0");
 			isTotalPointCheck = true;
 		}
+	}
+	#endregion
+	#region 戻るボタンの表示
+	private void OnSetBackButton () {
+		backButton.SetActive (true);
 	}
 	#endregion
 }
