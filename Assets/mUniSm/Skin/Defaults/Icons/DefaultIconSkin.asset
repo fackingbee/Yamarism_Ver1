@@ -15,9 +15,11 @@ MonoBehaviour:
   showingTitleText: 1
   titleScreenTexture: {fileID: 0}
   backgroundTexture: {fileID: 0}
-  author: mathru
-  url: http://mathru.net
-  email: mathru@teamegg.co.jp
+  Author: 
+  OfficialURL: 
+  Email: 
+  minSDKVersion: 1.0.0
+  targetSDKVersion: 1.0.0
   _skinList:
   - _foldout: 1
     ID: Icons
@@ -190,7 +192,7 @@ MonoBehaviour:
         texture: {fileID: 0}
         maskTexture: {fileID: 0}
         _meshEffectSets: []
-    - _foldout: 0
+    - _foldout: 1
       _path: /Icon/Stamina
       _skins:
       - _foldout: 0

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AD713886-4223-8C2B-F7E2-19669FF290BA}</ProjectGuid>
+    <ProjectGuid>{7C11CDAC-A235-2EAE-9C1B-3955DDD97C1D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -287,46 +287,46 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="JsonOrg">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Kii/Libs/JsonOrg.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/Kii/Libs/JsonOrg.dll</HintPath>
  </Reference>
  <Reference Include="KiiCloudStorageSDK">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Kii/Libs/KiiCloudStorageSDK.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/Kii/Libs/KiiCloudStorageSDK.dll</HintPath>
  </Reference>
  <Reference Include="KiiCloudUnitySDK">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Kii/Libs/KiiCloudUnitySDK.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/Kii/Libs/KiiCloudUnitySDK.dll</HintPath>
  </Reference>
  <Reference Include="mUniSm.Ads">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Ads/mUniSm.Ads.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/Ads/mUniSm.Ads.dll</HintPath>
  </Reference>
  <Reference Include="mUniSm.Asset">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Asset/mUniSm.Asset.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/Asset/mUniSm.Asset.dll</HintPath>
  </Reference>
  <Reference Include="mUniSm.Core">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Core/mUniSm.Core.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/Core/mUniSm.Core.dll</HintPath>
  </Reference>
  <Reference Include="Unity.IO.Compression">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Core/Unity.IO.Compression/Unity.IO.Compression.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/Core/Unity.IO.Compression/Unity.IO.Compression.dll</HintPath>
  </Reference>
  <Reference Include="mUniSm.Database">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Database/mUniSm.Database.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/Database/mUniSm.Database.dll</HintPath>
  </Reference>
  <Reference Include="mUniSm.Page">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Page/mUniSm.Page.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/Page/mUniSm.Page.dll</HintPath>
  </Reference>
  <Reference Include="mUniSm.Purchasing">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Purchasing/mUniSm.Purchasing.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/Purchasing/mUniSm.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="mUniSm.Scenario">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Scenario/mUniSm.Scenario.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/Scenario/mUniSm.Scenario.dll</HintPath>
  </Reference>
  <Reference Include="mUniSm.Tween">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/Tween/mUniSm.Tween.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/Tween/mUniSm.Tween.dll</HintPath>
  </Reference>
  <Reference Include="mUniSm.UI">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/mUniSm/UI/mUniSm.UI.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/mUniSm/UI/mUniSm.UI.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/yamamotoshouzou/Desktop/Unity_Yamarism_Ver1_0_6/Assets/Yama_Home/Plugins/LitJson.dll</HintPath>
+ <HintPath>/Users/yamamotoshouzou/Desktop/Work Space/Yamarism_Ver1/Assets/Yama_Home/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Users/yamamotoshouzou/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>

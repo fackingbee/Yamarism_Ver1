@@ -11,16 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: -1053999977, guid: d20299cf1f6437943a12bf178b1400c8, type: 3}
   m_Name: DefaultShapeSkin
   m_EditorClassIdentifier: 
-  ID: DefaultShape
+  PackageName: 
   showingTitleText: 1
-  imageSource: 0
-  titleScreenID: TitleScreen
-  backgroundID: Background
   titleScreenTexture: {fileID: 0}
   backgroundTexture: {fileID: 0}
-  author: mathru
-  url: http://mathru.net
-  email: mathru@teamegg.co.jp
+  Author: 
+  OfficialURL: 
+  Email: 
+  minSDKVersion: 1.0.0
+  targetSDKVersion: 1.0.0
   _skinList:
   - _foldout: 1
     ID: Common
@@ -67,7 +66,7 @@ MonoBehaviour:
         texture: {fileID: 0}
         maskTexture: {fileID: 2800000, guid: 01b21f53f8e98d34d885ac6378f491ac, type: 3}
         _meshEffectSets: []
-    - _foldout: 0
+    - _foldout: 1
       _path: /Shape/Header
       _skins:
       - _foldout: 0
@@ -874,7 +873,7 @@ MonoBehaviour:
         texture: {fileID: 0}
         maskTexture: {fileID: 2800000, guid: 01b21f53f8e98d34d885ac6378f491ac, type: 3}
         _meshEffectSets: []
-  - _foldout: 1
+  - _foldout: 0
     ID: Option
     _skins:
     - _foldout: 1

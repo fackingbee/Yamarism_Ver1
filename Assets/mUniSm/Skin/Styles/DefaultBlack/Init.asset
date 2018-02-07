@@ -1020,10 +1020,10 @@ MonoBehaviour:
         texture: {fileID: 0}
         maskTexture: {fileID: 0}
         _meshEffectSets: []
-  - _foldout: 1
+  - _foldout: 0
     ID: Icon
     _skins:
-    - _foldout: 1
+    - _foldout: 0
       _path: /Color/Icon/Default
       _skins:
       - _foldout: 0
@@ -1527,7 +1527,7 @@ MonoBehaviour:
         texture: {fileID: 0}
         maskTexture: {fileID: 0}
         _meshEffectSets: []
-    - _foldout: 1
+    - _foldout: 0
       _path: /Color/Icon/Warning
       _skins:
       - _foldout: 0
